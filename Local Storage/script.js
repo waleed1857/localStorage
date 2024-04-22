@@ -20,6 +20,6 @@ myContent.innerHTML += `<p>Age: ${Data.age}</p>`
 myContent.innerHTML += `<p>Class: ${Data.class}</p>`
 console.log("JSON form data stored in local storage:\n ", json_data);
 
-// // 4th (optional) converting to normal format:
-// let object_data = JSON.parse('json_data');
-// console.log("Object form data stored in local storage:\n ", object_data);
+// 4th (optional) converting to normal format:
+let object_data = JSON.parse('json_data');
+console.log("Object form data stored in local storage:\n ", object_data);
